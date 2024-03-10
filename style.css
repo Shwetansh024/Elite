@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: beige ;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+.hostel-form {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.hostel-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.hostel-form input,
+.hostel-form textarea {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.hostel-list {
+  list-style: none;
+  padding: 0;
+}
+
+.hostel-list li {
+  margin-bottom: 10px;
+}

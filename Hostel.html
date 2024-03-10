@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leftover Food Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Leftover Food Tracker</h1>
+    <p>Help reduce food waste by tracking hostel leftovers!</p>
+  </header>
+  <main>
+    <section class="hostel-form">
+      <h2>Add Hostel</h2>
+      <form id="hostel-form">
+        <label for="hostel-name">Hostel Name:</label>
+        <input type="text" id="hostel-name" name="hostelName" required>
+        <label for="food-items">Leftover Food Items:</label>
+        <textarea id="food-items" name="foodItems" rows="5" required></textarea>
+        <label for="estimated-quantity">Estimated Quantity(in Kg's):</label>
+        <input type="number" id="estimated-quantity" name="estimatedQuantity" min="1" required>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    <section class="hostel-list">
+      <h2>Hostels with Leftovers</h2>
+      <ul id="hostels-list">
+      </ul>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
